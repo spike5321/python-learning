@@ -1,0 +1,4 @@
+
+张三
+熟悉 Python、LangChain、RAG 开发
+了解 Docker 和 React

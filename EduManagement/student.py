@@ -1,3 +1,4 @@
+#学生类
 class Student:
     def __init__(self, name, num, chinese = 0, math = 0, english = 0):
         self.name = name
@@ -29,6 +30,7 @@ if __name__ == "__main__":
     san = Student("张三", "001", 90, 80, 75)
     si = Student("李四", "002", 50, 60, 70)
     print(san)
+    print(si)
     san.print_grade()
     print(f"平均分: {san.get_average()}")
     print(f"是否通过所有科目: {san.pass_all()}")
